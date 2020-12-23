@@ -1,8 +1,8 @@
 cask "font-hasklig" do
-  version "1.1"
-  sha256 "98eccec22bc0ae3838a099a911230f62197e681b6a6c30e5149c52f5fc6a95c3"
+  version "1.2"
+  sha256 "9cd35a7449b220dc84f9516c57817e147003fc905a477f1ec727816d9d8a81d4"
 
-  url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
+  url "https://github.com/i-tu/Hasklig/releases/download/v#{version}/Hasklig-#{version}.zip"
   appcast "https://github.com/i-tu/Hasklig/releases.atom"
   name "Hasklig"
   homepage "https://github.com/i-tu/Hasklig"
